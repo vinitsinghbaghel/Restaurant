@@ -1,0 +1,204 @@
+
+img{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: crimson;
+}
+.btn{
+    text-transform: uppercase;
+    background-color: crimson;
+    color: whitesmoke;
+}
+input{
+    border: 2px solid crimson;
+    border-radius: 6px;
+    margin: .8em .2em 0 0;
+    padding: .2em 0;
+}
+hr{
+    width: 15%;
+    border: 2px solid crimson;
+    border-radius: 30%;
+}
+/* Start Home Section */
+.home{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#myCarousel h2{
+    font-family: 'Saira Condensed', sans-serif;
+    color: rgb(252, 132, 33);
+    font-weight: 300;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    margin-top: .5rem;
+}
+#myCarousel p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(252, 132, 33);
+    font-size: 1.2rem;
+}
+/* End Home Section */
+/* Products Section */
+#products{
+    background-color: #ececec;
+    margin: 0 auto;
+    padding: 4em .5em;
+    text-align: center;
+}
+.icon{
+    height: 60px;
+    width: 40px;
+    margin: auto;
+}
+#products h2{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: .5rem;
+}
+#products p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+/* End Products Section */
+/* Start Special Dishes Section */
+#dishes{
+    margin: 0 auto;
+    padding: 3em 0 2em;
+    text-align: center;
+}
+#dishes h3{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: crimson;
+}
+#otherCarousel{
+    margin-top: 1rem;
+    height: 10%;
+    width: 50%;
+    margin: auto;
+}
+#otherCarousel img{
+    height: 100%;
+}
+/* End Special Dishes Section */
+/* Start Menu Section */
+#menu{
+    background-color: #ececec;
+    margin: 0 auto;
+    padding: 3em 0;
+    text-align: center;
+}
+#menu img{
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+#menu h2{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: .5rem;
+}
+/* End Menu Section */
+/* Start Testimonial Section */
+#testimonial{
+    margin: 0 auto;
+    padding: 2em 0;
+}
+#testimonial p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 1.2em;
+}
+.test-body img{
+    float: left;
+    height: 60px;
+    width: 60px;
+}
+.test-body h5{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+.test-body h6{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 200;
+    position: relative;
+    left: 10px;
+}
+/* End Testimonial Section */
+/* Start Blog Section */
+#blog{
+    margin: 0 auto;
+    padding: 1.5em 0 4em;
+}
+.blog-image{
+    margin: .8rem 0 .5rem;
+    height: 300px;
+}
+#blog h5{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-left: .7em;
+}
+#blog p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding-left: .7em;
+}
+/* End Blog Section */
+/* Start Subscribe Section */
+#subscribe{
+    background-color: #ececec;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+#subscribe h2{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+#subscribe p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+/* End Subscribe Section */
+/* Start Footer */
+#footer{
+    background-color: #26272b;
+    color: whitesmoke;
+    margin: 0 auto;
+    padding: 2em 0 0;
+}
+.foot-head {
+    padding-left: .8em;
+}
+.footer-links{
+    list-style: none;
+    padding-left: .4em;
+}
+/* End Footer */
