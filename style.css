@@ -26,6 +26,39 @@ hr{
     border: 2px solid crimson;
     border-radius: 30%;
 }
+/* Start Navbar */
+.navbar-light .navbar-brand{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: crimson;
+    text-transform: uppercase;
+}
+.navbar-toggler {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    opacity: .5;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Josefin Sans', sans-serif;
+    color: crimson;
+}
+.bg-light{
+    background-color: #505050!important;
+    opacity: .8;
+}
+@media screen and (max-width: 425px){
+    .navbar-brand{
+        margin-left: 35%;
+    }
+    .nav-item{
+        text-align: center;
+    }
+}
+/* End Navbar */
 /* Start Home Section */
 .home{
     display: flex;
