@@ -14,12 +14,23 @@ h1{
     text-transform: uppercase;
     background-color: crimson;
     color: whitesmoke;
+    width: 100%;
+    letter-spacing: 1.2px;
+}
+.btn:hover{
+    background-color: darkcyan;
 }
 input{
     border: 2px solid crimson;
     border-radius: 6px;
-    margin: .8em .2em 0 0;
+    width: 100%;
+    margin: .8em 0;
     padding: .2em 0;
+    text-indent: 5px;
+}
+a{
+    font-family: sans-serif;
+    color: whitesmoke;
 }
 hr{
     width: 15%;
@@ -206,6 +217,7 @@ hr{
     background-color: #ececec;
     margin: 0 auto;
     padding: 2em 0;
+    text-align: center;
 }
 #subscribe h2{
     font-family: 'Saira Condensed', sans-serif;
@@ -218,6 +230,7 @@ hr{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 1rem;
+    text-align: start;
 }
 /* End Subscribe Section */
 /* Start Footer */
@@ -230,8 +243,36 @@ hr{
 .foot-head {
     padding-left: .8em;
 }
+#footer h4{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+}
+#footer h3{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
 .footer-links{
     list-style: none;
     padding-left: .4em;
+    text-align: center;
 }
 /* End Footer */
+/* Media Queries */
+@media screen and (min-width: 760px){
+    .btn{
+        width: 50%;
+    }
+    input{
+        width: 50%;
+    }
+    #footer h4{
+        text-align: start;
+    }
+    .footer-links{
+        text-align: start;
+    }
+}
+/* End Media Queries */
