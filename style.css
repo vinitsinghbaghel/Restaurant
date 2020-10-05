@@ -153,6 +153,10 @@ hr{
     border-radius: 8px;
     margin-top: 1rem;
 }
+#menu img:hover{
+    opacity: .5;
+    border: 2.5px solid #777;
+}
 #menu h2{
     font-family: 'Saira Condensed', sans-serif;
     font-weight: 600;
@@ -198,6 +202,10 @@ hr{
 .blog-image{
     margin: .8rem 0 .5rem;
     height: 300px;
+}
+.blog-image:hover{
+    opacity: .5;
+    border: 1.5px solid #777;
 }
 #blog h5{
     font-family: 'Saira Condensed', sans-serif;
