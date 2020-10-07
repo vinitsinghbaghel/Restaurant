@@ -175,23 +175,42 @@ hr{
     font-weight: 400;
     padding-top: 1.2em;
 }
-.test-body img{
-    float: left;
-    height: 60px;
-    width: 60px;
+.image-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
 }
-.test-body h5{
+#person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+.name{
     font-family: 'Saira Condensed', sans-serif;
     font-weight: 400;
     position: relative;
     top: 6px;
     left: 10px;
 }
-.test-body h6{
-    font-family: 'Saira Condensed', sans-serif;
-    font-weight: 200;
-    position: relative;
-    left: 10px;
+.prev-btn,
+.next-btn {
+  color: crimson;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+    color: coral;
 }
 /* End Testimonial Section */
 /* Start Blog Section */
