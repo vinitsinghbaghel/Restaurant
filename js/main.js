@@ -37,3 +37,51 @@ const reviews = [
         "I had lunch with some of my colleagues at Echo on Day 1. I had the wedge salad - it was delicious. On Night 2, I enjoyed a drink at the bar. I had a Margarita. The service was excellent. ",
     },
   ];
+
+//   Selecting items
+const image = document.getElementById("person-img");
+const name = document.getElementById("name");
+const job = document.getElementById("job");
+const comment = document.getElementById("comment");
+
+const prevBtn = document.querySelector(".prev-btn");
+const nxtBtn = document.querySelector(".next-btn");
+
+// Starting item
+let currentItem = 0;
+
+// After selecting item, next items
+window.addEventListener("DOMContentLoaded", function(){
+    const item = reviews[currentItem];
+    image.src = item.img;
+    name.textContent = item.name;
+    job.textContent = item.job;
+    comment.textContent = item.text;
+});
+
+// Show People based on item
+function showPeople(people){
+    const item = reviews[people];
+    image.src = item.img;
+    name.textContent = item.name;
+    job.textContent = item.job;
+    comment.textContent = item.text;
+}
+
+// Show next person
+nxtBtn.addEventListener("click", function(){
+    currentItem++;
+    if(currentItem > reviews.length - 1){
+        currentItem = 0;
+    }
+    showPeople(currentItem);
+});
+
+// Previous Person
+prevBtn.addEventListener("click", function(){
+    currentItem--;
+    if(currentItem < 0){
+        currentItem = reviews.length - 1;
+    }
+    showPeople(currentItem);
+});
